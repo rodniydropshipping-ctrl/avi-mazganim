@@ -9,22 +9,26 @@ body, html {
 .main-nav {
   background: #00BFFF;
   width: 100%;
-  height: 100px; /* גובה הפס */
+  height: auto; /* גובה הפס */
+  min-height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 0;
+  position: relative;
+  z-index: 10;
 }
 .logo-wrapper {
-  height: 100%; /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
+  width: 100%; /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px;
 }
 .logo {
-  height: 80px;
+  max-height: 120px;
   width: auto;
-  object-fit: contain; /* חיתוך הקצוות */
+  object-fit: contain; 
+  display: block;/* חיתוך הקצוות */
   /* הגדלה נוספת */
 }
 
