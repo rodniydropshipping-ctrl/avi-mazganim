@@ -9,25 +9,22 @@ body, html {
 .main-nav {
   background: #00BFFF  !important;
   width: 100%  !important;
-  min-height: 100px  !important; /* גובה הפס */
+  height: 120px  !important; /* גובה הפס */
   display: flex  !important;
   justify-content: center  !important;
   align-items: center  !important;
-  position: relative  !important;
-  z-index: 1000  !important;
-  margin-bottom: 0  !important;
-  padding: 15px 0   !important;
+  margin: 0  !important;
+  padding:  0   !important;
 }
 .logo-wrapper {
- width: 100%  !important;  /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
+ height: 100%  !important;  /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
   display: flex  !important;
   align-items: center  !important;
 justify-content: center  !important;
 }
 .logo {
-  max-width: 280px  !important;
-  height: auto  !important;
   max-height: 80px  !important;
+ width: auto  !important;
   object-fit: contain  !important; 
   display: block  !important;
   /* חיתוך הקצוות */
