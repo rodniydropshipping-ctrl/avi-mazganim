@@ -7,24 +7,25 @@ body, html {
 
 /* לוגו חתוך וגדול */
 .main-nav {
-  background: #ff7900;
+  background: #00BFFF;
   width: 100%;
-  height: 120px; /* גובה הפס */
+  height: 100px; /* גובה הפס */
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* חותך את מה שיוצא מהפס */
 }
 .logo-wrapper {
-  height: 170px; /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
+  height: 100%; /* גדול יותר מהפס כדי שנוכל לחתוך קצוות */
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 5px;
 }
-.header-logo {
-  height: 100%;
+.logo {
+  height: 80px;
   width: auto;
-  object-fit: cover; /* חיתוך הקצוות */
-  transform: scale(1.4); /* הגדלה נוספת */
+  object-fit: contain; /* חיתוך הקצוות */
+  /* הגדלה נוספת */
 }
 
 /* Hero - תמונת מזגן */
