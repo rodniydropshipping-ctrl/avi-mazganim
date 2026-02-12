@@ -99,7 +99,7 @@ justify-content: center  !important;
 .stars { color: #ffcc00; font-size: 20px; }
 
 /* דף קשר */
-.contact-footer { padding: 60px 20px; background: #fff5ed; text-align: center; }
+.contact-footer { padding: 60px 20px; background: #F0FFFF; text-align: center; }
 .contact-card { max-width: 450px; margin: 0 auto; }
 input { width: 100%; padding: 15px; margin-bottom: 15px; border-radius: 8px; border: 1px solid #ddd; }
 button { width: 100%; background: #00BFFF; color: white; border: none; padding: 15px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1.1rem; }
