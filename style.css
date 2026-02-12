@@ -320,7 +320,37 @@ section {
   padding: 0;
   box-sizing: border-box;
 }
+/* תיקון לנייד - הגדלת טקסט וסידור קוביות */
+@media (max-width: 600px) {
+    body {
+        font-size: 18px !important;
+    }
 
+    /* סידור הקוביות אחת מתחת לשנייה */
+    .features, .services-container {
+        display: block !important;
+    }
+
+    .feature, .service-card {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* הגדלת כפתור החיוג */
+    .btn {
+        display: block !important;
+        width: 90% !important;
+        font-size: 1.5rem !important;
+        text-align: center;
+        margin: 10px auto;
+    }
+}
+
+/* הגדלת כפתור הוואטסאפ שיהיה קל ללחוץ */
+.whatsapp-float img {
+    width: 80px !important;
+    height: 80px !important;
+}
 /* וודא שהקונטיינר של הלוגו (הבאנר הכתום) לא מייצר רווח */
 
 
